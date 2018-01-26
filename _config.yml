@@ -4,6 +4,10 @@ url: 'https://github.com/thebetternewt/relate-media-design'
 snipcart_api_key: ''
 timezone: UTC
 collections:
+  items:
+    title: Items
+    output: true
+    permalink: "/"
   posts:
     title: Posts
     output: true
