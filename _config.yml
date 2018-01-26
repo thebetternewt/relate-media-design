@@ -5,6 +5,7 @@ collections:
   items:
     title: Items
     output: true
+    permalink: "/"
   posts:
     title: Posts
     output: true
