@@ -1,9 +1,14 @@
 ---
 title: Relate Media & Design
+url: 'https://github.com/thebetternewt/relate-media-design'
+snipcart_api_key: ''
 timezone: UTC
 collections:
   posts:
     title: Posts
+    output: true
+  products:
+    title: Products
     output: true
   uploads:
     title: Uploads
@@ -13,6 +18,8 @@ defaults:
     path: ''
     type: posts
   values:
+    layout: products
+    permalink: "/products/:title/"
     layout: post
     permalink: "/posts/:title/"
 - scope:
@@ -24,12 +31,11 @@ email: chris@starkvilletech.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-baseurl: ''
-url: ''
+
 twitter_username: relate_md
 github_username: thebetternewt
 markdown: kramdown
-theme: 
+theme:
 plugins:
 - jekyll-feed
 sass:
