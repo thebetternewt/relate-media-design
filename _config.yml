@@ -43,7 +43,7 @@ description: Write an awesome description for your new site here. You can edit t
 twitter_username: relate_md
 github_username: thebetternewt
 markdown: kramdown
-theme:
+theme: 
 plugins:
 - jekyll-feed
 sass:
