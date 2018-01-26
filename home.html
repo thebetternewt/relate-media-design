@@ -98,4 +98,8 @@ layout: default
   </div>
 </section>
 
-<section style="height:300px;width:100%;background-color:#999"></section>
+<section style="height:300px;width:100%;background-color:#999">
+  {% for product in site.products %}
+    {% include product.html %}
+  {% endfor %}
+</section>
